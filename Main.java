@@ -12,12 +12,9 @@ public class Main {
 		scanner.close();
 		int total = sumOfArray.arraySum(arr);
 		int product = productOfArray.arrayProduct(arr);
-		reverseArray.reverse(arr);
+		
 		System.out.print("total: " + total + System.lineSeparator() + 
 				"product: " + product + System.lineSeparator());
-		System.out.print("reversed array: ");
-		for (int i = 0; i < arr.length; ++i) {
-			System.out.print(arr[i] + " ");
-		}
+		
 	}
 }
