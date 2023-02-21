@@ -1,5 +1,5 @@
 
-public class sumOfArray {
+public class sumOfArray { // sum
 	public static int arraySum (int[] inputArray) {
 		int total = 0;
 		for (int i = 0; i < inputArray.length; ++i) {

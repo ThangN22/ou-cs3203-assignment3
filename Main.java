@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class Main { // main
 	public static void main(String[] args) {
 		int[] arr = new int[4];
 		Scanner scanner = new Scanner(System.in);
@@ -15,6 +15,10 @@ public class Main {
 		
 		System.out.print("total: " + total + System.lineSeparator() + 
 				"product: " + product + System.lineSeparator());
-		
+		reverseArray.reverse(arr);
+		System.out.print("reversed array: ");
+		for (int i = 0; i < arr.length; ++i) {
+			System.out.print(arr[i] + " ");
+		}
 	}
 }

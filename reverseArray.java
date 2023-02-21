@@ -1,7 +1,7 @@
 
 
 
-public class reverseArray {
+public class reverseArray { // reverse
 	public static void reverse(int[] inputArray) {
 	    int left = 0;
 	    int right = inputArray.length - 1;
