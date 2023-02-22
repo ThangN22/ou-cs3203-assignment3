@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main { // main
+public class Main { // This is main
 	public static void main(String[] args) {
 		int[] arr = new int[4];
 		Scanner scanner = new Scanner(System.in);
